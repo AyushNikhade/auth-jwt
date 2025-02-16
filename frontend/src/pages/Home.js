@@ -23,7 +23,7 @@ function Home() {
 
     const fetchProducts = async () => {
         try {
-            const url = "http://localhost:5000/products";
+            const url = "https://auth-jwt-api-nine.vercel.app/products";
         
             const headers = {
                 method:"GET",
